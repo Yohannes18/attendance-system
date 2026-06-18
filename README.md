@@ -100,3 +100,4 @@ should put the ESP8266 and the register form behind a server-side API key
 or service role, and restrict the anon key to read-only on the dashboard.
 Worth a sentence in your report if you want to show you understand the
 distinction between "demo-secure" and "production-secure."
+# Updated

@@ -1,35 +1,62 @@
-# Git ignore for attendance system
-
-# Node
+# ============================================================
+# Node Dependencies
+# ============================================================
 node_modules/
 npm-debug.log*
+npm-debug.log
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 .npm
 .yarn/cache
+.pnpm-store
 
-# Environment
+# ============================================================
+# Environment Variables (DO NOT COMMIT)
+# ============================================================
 .env
 .env.local
 .env.*.local
+.env*.local
 
-# Build outputs
+# ============================================================
+# Next.js Build Outputs
+# ============================================================
 .next/
-dist/
-build/
 out/
+build/
+dist/
+*.tsbuildinfo
 
-# IDE
+# ============================================================
+# IDE & Editor
+# ============================================================
 .vscode/
+.vscode-settings.json
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-project
+*.sublime-workspace
 
-# OS
+# ============================================================
+# OS Files
+# ============================================================
 Thumbs.db
-.DS_Store
+Desktop.ini
 
+# ============================================================
 # Vercel
+# ============================================================
 .vercel
+.vercel/**
+
+# ============================================================
+# Development
+# ============================================================
+dev.log
+*.log
